@@ -105,6 +105,7 @@ public class ListActivity extends AppCompatActivity implements itemClickCallBack
 
     void setAdapter(Doctors doctorsFromDb){
         Doctors doctor=new Doctors();
+        doctor.setMobile(doctorsFromDb.getMobile());
         doctor.setName(doctorsFromDb.getName());
         doctor.setSpecialization(doctorsFromDb.getSpecialization());
         doctor.setProfile_image(doctorsFromDb.getProfile_image());
@@ -112,12 +113,17 @@ public class ListActivity extends AppCompatActivity implements itemClickCallBack
         doctorsList.add(doctor);
 
 
-        doctorListAdapter = new  DoctorListAdapter(doctorsList,this);
+        doctorListAdapter = new  DoctorListAdapter(doctorsList,this,this);
         recyclerView.setAdapter(doctorListAdapter);
     }
 
     @Override
     public void itemClick(Doctors doctors) {
+
+
+
+        Toast.makeText(this, "Booking full...", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Try again later", Toast.LENGTH_SHORT).show();
 
     }
 

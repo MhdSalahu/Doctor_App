@@ -7,41 +7,59 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:background="#9DF1DF"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#E6DDC4">
+
+        <TextView
+            android:id="@+id/mobile"
+            android:layout_width="197dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Mobile"
+            android:textColor="#00337C"
+            app:layout_constraintBottom_toTopOf="@+id/bookButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/profile_image"
+            app:layout_constraintTop_toBottomOf="@+id/specialization"
+            app:layout_constraintVertical_bias="0.0" />
 
         <TextView
             android:id="@+id/name"
             android:layout_width="199dp"
             android:layout_height="32dp"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="7dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:text="Doctor Name"
             android:textColor="#00337C"
             android:textStyle="bold"
+            android:textSize="17dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.127"
+            app:layout_constraintHorizontal_bias="0.09"
             app:layout_constraintStart_toEndOf="@+id/profile_image"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.106" />
+            app:layout_constraintVertical_bias="0.052" />
 
         <ImageView
             android:id="@+id/profile_image"
             android:layout_width="119dp"
-            android:layout_height="142dp"
+            android:layout_height="153dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="7dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="7dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.055"
+            app:layout_constraintHorizontal_bias="0.05"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintVertical_bias="0.25"
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
@@ -49,18 +67,15 @@
             android:layout_width="198dp"
             android:layout_height="30dp"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="12dp"
             android:layout_marginEnd="10dp"
-            android:layout_marginBottom="10dp"
             android:text="Department"
+            android:textColor="#00337C"
             android:textStyle="italic"
-            app:layout_constraintBottom_toTopOf="@+id/bookButton"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.125"
+            app:layout_constraintHorizontal_bias="0.133"
             app:layout_constraintStart_toEndOf="@+id/profile_image"
-            app:layout_constraintTop_toBottomOf="@+id/name"
-            app:layout_constraintVertical_bias="0.625"
-            android:textColor="#00337C"/>
+            app:layout_constraintTop_toBottomOf="@+id/name" />
 
         <Button
             android:id="@+id/bookButton"
@@ -69,14 +84,15 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="7dp"
-            android:backgroundTint="#DD4444"
+            android:backgroundTint="#00337C"
             android:text="Book Now"
+            android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.222"
+            app:layout_constraintHorizontal_bias="0.191"
             app:layout_constraintStart_toEndOf="@+id/profile_image"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.95" />
+            app:layout_constraintVertical_bias="1.0" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

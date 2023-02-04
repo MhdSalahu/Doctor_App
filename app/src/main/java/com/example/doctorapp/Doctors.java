@@ -6,10 +6,20 @@ import java.io.Serializable;
 
 public class Doctors implements Serializable {
 
+
+    String mobile;
     String name;
     String specialization;
     String profile_image;
 
+
+    public String getMobile() {
+        return mobile;
+    }
+
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
+    }
 
     public String getName() {
         return name;
