@@ -102,6 +102,7 @@ public class LoginActivity extends AppCompatActivity {
                             }
                         } else {
                             Log.d("TAG", "get failed with ", task.getException());
+                            Toast.makeText(LoginActivity.this, "Try again later", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
