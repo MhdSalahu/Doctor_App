@@ -11,4 +11,3 @@ Features are listed below
 
 3. Easy to use
 
-4. No compliment
