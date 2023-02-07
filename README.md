@@ -12,4 +12,4 @@ Features are listed below
 3. Easy to use
 
 4. Facilitty to book doctor
-5. Doctor Details
+5. Doctor details
