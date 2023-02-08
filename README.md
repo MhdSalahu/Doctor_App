@@ -12,4 +12,4 @@ Features are listed below
 3. Easy to use
 
 4. Facilitty to book doctor
-5. Doctor details like mobile number, qualification or designation on the department
+//5. Doctor details like mobile number, qualification or designation on the department
