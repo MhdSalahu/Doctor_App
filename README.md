@@ -15,6 +15,3 @@ Features are listed below
 5. Doctor details like mobile number, qualification or designation on the department 
 [
 ]hcgj
-DSG
-gF
-d
