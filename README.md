@@ -13,3 +13,8 @@ Features are listed below
 
 4. Facilitty to book doctor
 5. Doctor details like mobile number, qualification or designation on the department 
+[
+]hcgj
+DSG
+gF
+ds
